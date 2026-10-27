@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StructDraft | Structural Drafting Studio</title>
+    <link rel="stylesheet" href="style.css?v=20260922-1">
+</head>
+
+<body>
+
+<header class="topbar">
+
+    <div class="brand">
+        <img class="brand-logo" src="assets/structdraft.jpg" alt="StructDraft logo" />
+
+        <div>
+            <h1>STRUCTDRAFT</h1>
+            <p>OFFLINE LEARNING MANAGEMENT SYSTEM</p>
+        </div>
+    </div>
+
+    <div class="year">
+        <span>ACADEMIC YEAR</span>
+        <div class="year-selector">
+            <strong id="yearDisplay">2026</strong>
+            <div class="year-dropdown" id="yearDropdown">
+                <button class="year-option" onclick="switchYear(2026)">2026</button>
+                <button class="year-option" onclick="switchYear(2027)">2027</button>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<main id="app"></main>
+
+<footer>
+    <span>STRUCTDRAFT / STRUCTURAL DRAFTING STUDIO</span>
+    <span>OFFLINE-FIRST • <strong id="footerYear">2026</strong></span>
+</footer>
+
+<script src="script.js?v=20260922-1"></script>
+
+</body>
+</html>
